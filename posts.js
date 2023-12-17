@@ -35,5 +35,5 @@ if (!userId || userId === "" || userId > 10 || userId < 1) {
         window.location.reload();
     } 
 } else {
-        getPosts();
+        getPosts(userId);
 } 
